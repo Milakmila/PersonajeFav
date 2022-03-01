@@ -165,6 +165,8 @@ html{
 }
         
 .canciones{
+    background-image: url(/images/fondo2.jpg);
+    background-size: 2000px;
     width: 2000px;
     display: flex;
     flex-direction: row; 
@@ -210,15 +212,20 @@ html{
     background-color: white;
     padding: 30px;
     align-items: center;
-    margin: 60px 60px 60px 550px;
+    margin: 0px 60px 60px 60px;
     
     
 }
 .album {
-    margin-left: 100px;
+    margin-left: 355px;
     margin-top: 30px;
     background: rgba(255, 255, 255, 0.747) ;
     flex-wrap: nowrap;
     padding: 15px;
+    border-radius: 2%;
+    border: black;
 
+}
+.album img{
+    width:300px
 }

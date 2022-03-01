@@ -99,10 +99,11 @@ html{
     border-radius: 5px;
     width: 1600px;
     height: auto;
+    align-items: center;
     background: rgba(255, 255, 255, 0.747);
     font-family: 'Poppins', sans-serif ;
     font-size: 24px;
-    margin: 40px 580px;
+    margin: 40px 110px;
     padding: 15px 15px;
     display: flex;
     border: 0.5px solid white;
@@ -129,16 +130,17 @@ html{
     background-image: url(/images/lineadetiempo.jpg);
 }
 .boton{
-    align-items:flex-end;
+    align-items:center;
     width:50px;
     background-color: var(--yellow-color) ;
     color:black;
+    margin-left: 850px;
     padding: 20px 60px;
     border-radius: 10px;
-    text-align: center;
 
 }
 .boton a{
+    text-align: center;
     font-family: 'Poppins', sans-serif; ;
     font-size: 20px;
     margin:20px 0;
@@ -151,4 +153,72 @@ html{
     transition-duration: 1s;
     transition-timing-function:ease-in-out;
     transition-delay: 1s;
+}
+
+/*Canciones0*/
+.cancionestitulo{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif ;
+    text-align: center;
+    color: white;
+    text-shadow:3px 3px 1px #ffcbdbd9; 
+}
+        
+.canciones{
+    width: 2000px;
+    display: flex;
+    flex-direction: row; 
+    align-items:center; 
+    justify-content: center;
+    font-family: 'Poppins', sans-serif ;
+    padding: 50px 55px;
+    flex-wrap: wrap;
+   
+}
+.canciones a{
+    font-size: 20px;
+    color: black;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin: 25px;
+}
+.cancion1{
+    background-color: white;
+    padding: 35px;
+    align-items: center;
+    margin: 60px;
+}
+.cancion2{
+    background-color: white;
+    padding: 35px;
+    align-items: center;
+    margin: 60px;
+}
+.cancion3{
+    background-color: white;
+    padding: 26px;
+    align-items: center;
+    margin: 60px ;
+}
+.cancion4{
+    background-color: white;
+    padding: 25px;
+    align-items: center;
+    margin: 60px;
+}
+.cancion5{
+    background-color: white;
+    padding: 30px;
+    align-items: center;
+    margin: 60px 60px 60px 550px;
+    
+    
+}
+.album {
+    margin-left: 100px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.747) ;
+    flex-wrap: nowrap;
+    padding: 15px;
+
 }

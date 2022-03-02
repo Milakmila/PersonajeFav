@@ -12,6 +12,7 @@ html{
     margin: 0;padding: 0;
     justify-content: center;
     background:linear-gradient(to right, #ffcbdbd9, #d7bde1);
+    font-family: 'Poppins', sans-serif; ;
    
 }
 .fondo1{
@@ -42,6 +43,9 @@ html{
     font-family:"Poppins", sans-serif;
     text-align: center;
     font-size:26px ;
+    text-decoration: none;
+} 
+.menu a{
     text-decoration: none;
 }   
 
@@ -75,8 +79,7 @@ html{
 
 .container1 p{
     text-align: justify;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif ;       
+    font-size: 28.5px;    
    }
 
 .container1 img{
@@ -156,6 +159,10 @@ html{
 }
 
 /*Canciones0*/
+.fondo2{
+    background-image: url(/images/fondo2.jpg); 
+
+}
 .cancionestitulo{
     font-size: 50px;
     font-family: 'Poppins', sans-serif ;
@@ -165,8 +172,7 @@ html{
 }
         
 .canciones{
-    background-image: url(/images/fondo2.jpg); 
-    background-size: 1800px;
+    background-size: 800px;
     width: 2000px;
     display: flex;
     flex-direction: row; 
@@ -182,7 +188,7 @@ html{
     color: black;
     justify-content: flex-start;
     text-decoration: none;
-    margin: 25px;
+    margin:10px 20px;
 }
 .cancion1{
     background-color: white;
@@ -217,7 +223,10 @@ html{
     
 }
 .album {
-    margin-left: 355px;
+    justify-content: center;
+    align-items: center;
+    width:40rem;
+    margin-left: 40rem;
     margin-top: 30px;
     background: rgba(255, 255, 255, 0.747) ;
     flex-wrap: nowrap;
@@ -229,3 +238,92 @@ html{
 .album img{
     width:300px
 }
+/*Giveaway*/
+.fondo3{
+    background-image:url(/images/fondo4.jpg) ;
+}
+.giveaway{
+    width:1000px ;
+    height: auto;
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 10%;
+    height: 680px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    display: flex;
+    align-content: flex-start;
+    margin:40px auto ;
+    padding: 30px;
+}
+.giveaway h2{
+    justify-content: center;
+    width: 400px; 
+    height: 100px;                                        
+    color: rgb(0, 0, 0);                     
+    font-size: 60px;
+    background:linear-gradient(to right, #ffcbdbd9, #d7bde1 );
+    text-shadow: 3px 3px 1px whitesmoke;
+    margin:10px 300px ;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;  
+}
+.giveaway p{
+    justify-content: center;
+    font-size: 18px;
+    text-align: justify;
+}
+.giveaway iframe{
+    align-items: center;
+    margin:20px 150px;
+    padding: 20px;
+    width:560;
+    height: 315;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    background: rgba(255, 255, 255, 0.747);
+    
+    font-size: 20px;
+    margin-left: 25rem;
+}
+    .form-group{
+        margin: 8px;
+        display: flex;
+        flex-direction: column; 
+        padding: 10px;   
+    }
+    #form{
+
+        font-weight: 200;
+        margin-left: 1rem; 
+    }
+    .form-label{
+        text-align: left;
+        padding: 0.82rem 8rem;
+  
+    }
+    .razon{
+        text-align: center;
+        padding: 2rem 25rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #cancion{
+        text-align: center;
+        margin: 0.8rem;
+        
+    }
+
+    .final{
+        padding: 50px;
+        text-align: center;
+    }
+
